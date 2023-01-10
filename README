@@ -1,0 +1,11 @@
+Projects cover the backend only and also test the controller by mocking the data from the repo. 
+
+I would have preferred to write the tests as functional tests that actually call the endpoints if i had more time. 
+I was hampered by lack of a startup class, which made this more challenging and i reverted to unit tests, which are not
+as useful.
+
+I used the csvhelper library to parse data from csv into objects. With more time would have moved the csv files into a
+separate data project where the parsing would be done, like an ORM. I would have also split out the csvhelper map
+classes into separate files and made the maps configurable, as well as the file names.
+
+Would have placed code under src file in github
