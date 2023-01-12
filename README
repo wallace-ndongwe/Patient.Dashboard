@@ -1,8 +1,13 @@
-Work covers the backend only and also unit tests for the api controllers, while mocking the data from the repo. 
+Work covers both the backend and frontend requirements of the task. 
+
+Both Clinics and Patients data is handled in the same component; with more time would have split the clinic patients
+into a child component. Would also have increased test coverage.
+
+Cors settings would be moved into configuration.
 
 I would have preferred to write the tests as functional tests that actually call the endpoints if i had more time. 
-I was hampered by lack of a startup class in the scafolded code, which made this more challenging and i reverted to 
-unit tests, which are not as useful.
+I was hampered by lack of a startup class in the scaffolded code, which made this more challenging and i reverted to 
+unit tests.
 
 I used the csvhelper library (https://joshclose.github.io/CsvHelper/) to parse data from csv into objects. 
 With more time would have moved the csv files into a separate data project where the parsing would be done, like an ORM.
